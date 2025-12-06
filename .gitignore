@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files (ключи, токены и т.п.)
+.env
+.env.*
+*.env
+
+# Local vector database
+chroma_db/
+
+# Logs
+*.log
+logs/
+
+# OS-specific
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
